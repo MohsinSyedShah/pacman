@@ -8,6 +8,9 @@
         int helmetPrice = 3000;
         int foodPrice = 500;
         int presentPrice = 1000;
+        int drinkPrice = 150;
+        int shoesPrice =3500;
+        int candyPrice= 20;
 
         Console.WriteLine("------------------------------");
         Console.WriteLine("Welcome to the general store!");
@@ -46,6 +49,8 @@
                 playerCoins = playerCoins - presentPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
                 break;
+                switch (playerCoins)
+                case "A" Console.WriteLine("")
         }
     }
 }
